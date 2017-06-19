@@ -1,0 +1,61 @@
+body {
+	margin: 0;
+	padding: 0:
+	border: 0;
+}
+html body {
+	max-height: 100%;
+	height: 100%;
+}
+h1 {
+	font-family: 'Pangolin', cursive;
+	font-size: 300%;
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	text-align: center;
+	margin-top: 20%;
+}
+h2 {
+	font-family: 'Pangolin', cursive;
+	font-size: 300%;
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	text-align: center;
+}
+h3 {
+	font-family: 'Pangolin', cursive;
+	font-size: 300%;
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	text-align: left;
+}
+.daniel {
+	font-family: 'Pacifico', cursive;
+}
+.mike {
+	text-align: left;
+}
+.container-fluid {
+	padding: 0;
+}
+.bkg {
+	position: fixed;
+	top: 0px;
+	width: 90%;
+	min-height: 100%;
+	height: 100%;
+	left:5%;
+	z-index: -10000;
+	filter: blur(10px) brightness(50%);
+}
+.messy {
+	margin-top: 1%;
+}
+.sincerely {
+	height: 500px;
+}
+@media screen and (min-width: 991px) {
+	.bug1 {
+		display: none;
+	}
+}
